@@ -101,7 +101,7 @@ module.exports = {
 };
 ```
 ---
-PWA用のアイコン画像`src/static/icon.png`を設置
+PWA用のアイコン画像`src/static/icon.png`を設置  
 不要であれば`src/nuxt.config.js`を下記のように修正
 ```
 modules: [
@@ -111,7 +111,7 @@ modules: [
 ---
 ### Webプッシュ導入
 OneSignalを使って導入  
-→Webサイトにpush通知機能を付けられるサードパーティのライブラリ
+→Webサイトにpush通知機能を付けられるサードパーティのライブラリ  
 OneSignal上でアプリケーションを登録後
 `nuxt.config.js`を下記のように設定
 
