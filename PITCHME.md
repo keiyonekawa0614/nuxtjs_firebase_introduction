@@ -52,8 +52,15 @@ $ vue init nuxt-community/starter-template src
 ```
 ---
 ### 環境構築
-下記資料参考
+詳しくは下記資料参考
 https://inside.dmm.com/entry/2018/04/10/nuxt-firebase
+
+---
+### PWA導入
+
+PWAとは？
+---
+
 
 
 
