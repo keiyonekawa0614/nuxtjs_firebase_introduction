@@ -19,10 +19,10 @@ SPA×SSR×PWA×サーバーレスのWebアプリケーションについて
 ---
 
 ### Firebase
-* Firebase Hosting　　
+* Firebase Hosting  
 →静的ファイルのホスティングサービス、クライアントから直接参照されるファイルのホスティングに利用
 
-* Cloud Functions　　
+* Cloud Functions  
 →サーバーレスでアプリケーション開発を行えるサービス(Faas)
 
 ---
