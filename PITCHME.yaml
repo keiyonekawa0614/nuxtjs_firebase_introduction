@@ -1,9 +1,11 @@
 #テーマの設定
-theme : white
+theme : moon
 
 
 #ロゴアイコンの設定
 
+#コードのシンタックスハイライトの設定
+highlight : monokai
 
 
 #フットノートの設定
