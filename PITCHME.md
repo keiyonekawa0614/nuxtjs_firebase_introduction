@@ -19,12 +19,14 @@ SPA×SSR×PWA×サーバーレスのWebアプリケーションについて
 ---
 
 ### Firebase
-* Firebase Hosting
+* Firebase Hosting　　
 →静的ファイルのホスティングサービス、クライアントから直接参照されるファイルのホスティングに利用
 
-* Cloud Functions
+* Cloud Functions　　
 →サーバーレスでアプリケーション開発を行えるサービス(Faas)
 
+---
+### 注意点
 Cloud FunctionsではNode.js v6.11.5しか利用できない
 そのため、Nuxt.jsのバージョンはNode.js v6.11.5をサポートしている1.0.0-rc11を利用し、依存関係も解決する必要
 
@@ -46,14 +48,7 @@ $ cd <project-name>
 $ mkdir functions
 
 // Nuxt.jsスターターテンプレートをインストール
-// ソースコード用ディレクトリは自動生成されます
 $ vue init nuxt-community/starter-template src
-//// プロジェクト情報を尋ねられるので適宜入力
-? Project name <project-name>
-? Project description <project-description>
-? Author <your-name>
-
-   vue-cli · Generated "src".
 ```
 ---
 ### 環境構築
