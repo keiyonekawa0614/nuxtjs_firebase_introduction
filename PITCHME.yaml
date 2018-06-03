@@ -1,13 +1,12 @@
 #テーマの設定
-theme : sky
+theme : moon
 
 
 #ロゴアイコンの設定
-logo : nuxt-logo.png
+
 
 
 #フットノートの設定
-footnote : "© 2017 sample Inc."
 
 
 #スライドのページ数表示の設定
