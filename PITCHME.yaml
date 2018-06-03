@@ -1,5 +1,5 @@
 #テーマの設定
-theme : white
+theme : moon
 
 
 #ロゴアイコンの設定
@@ -15,4 +15,4 @@ highlight : monokai
 slide-number: true
 
 #背景画像
-background : bg-nuxt2.jpg
+#background : bg-nuxt2.jpg
