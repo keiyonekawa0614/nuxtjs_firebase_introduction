@@ -58,8 +58,54 @@ https://inside.dmm.com/entry/2018/04/10/nuxt-firebase
 ---
 ### PWA導入
 
-PWAとは？
+その前にPWAとは？
+
 ---
+* Progressive Web Appsの略
+* モバイルユーザーのUX向上を目的とした、WEBページ／WEBアプリケーションとネイティブアプリの利点をいいとこ取りできる仕組み
+* モバイル端末でページを表示する時にネイティブアプリのような挙動をさせることが出来る
+
+---
+### PWAのメリット
+
+* オフラインでも動く
+* プッシュ通知の受信が可能
+* インストール不要
+* ストアの審査なくアップデートが可能
+* ネイティブアプリのようなUIを実現できる
+ * 「ホームに追加」ボタンを表示でき、ホームに追加されたページはインストールされたアプリのように扱える
+ * ホーム画面のアイコンが設定できる
+ * 起動時のスプラッシュ画面が設定できる
+ * URL非表示
+　
+---
+### PWA導入
+インストール
+```
+ npm install --save-dev @nuxtjs/pwa
+```
+`src/nuxt.config.js`にPWAの設定を追記
+
+```
+module.exports = {
+  modules: [
+    '@nuxtjs/pwa'
+  ],
+  manifest: {
+    name: 'project-name',
+    lang: 'ja'
+  }
+};
+```
+PWA用のアイコン画像`src/static/icon.png`を設置
+不要であれば`src/nuxt.config.js`を下記のように修正
+```
+modules: [
+    ['@nuxtjs/pwa', { icon: false }],
+],
+```
+---
+
 
 
 
