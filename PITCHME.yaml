@@ -13,3 +13,6 @@ highlight : monokai
 
 #スライドのページ数表示の設定
 slide-number: true
+
+#背景画像
+background : bg-nuxt.png
