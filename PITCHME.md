@@ -80,11 +80,14 @@ https://inside.dmm.com/entry/2018/04/10/nuxt-firebase
 　
 ---
 ### PWA導入
-インストール
+Nuxt.jsにはPWAモジュールが用意されている
+[公式ドキュメント](https://pwa.nuxtjs.org/setup.html)に沿ってインストール
+
 ```
  npm install --save-dev @nuxtjs/pwa
 ```
 `src/nuxt.config.js`にPWAの設定を追記
+manifestはアプリっぽい挙動になる設定
 
 ```
 module.exports = {
@@ -97,6 +100,7 @@ module.exports = {
   }
 };
 ```
+---
 PWA用のアイコン画像`src/static/icon.png`を設置
 不要であれば`src/nuxt.config.js`を下記のように修正
 ```
@@ -105,6 +109,38 @@ modules: [
 ],
 ```
 ---
+### Webプッシュ導入
+OneSignalを使って導入  
+→Webサイトにpush通知機能を付けられるサードパーティのライブラリ
+OneSignal上でアプリケーションを登録後
+`nuxt.config.js`を下記のように設定
+
+```
+  modules: [
++    '@nuxtjs/onesignal', // pwaの前に定義
+    '@nuxtjs/pwa'
+  ],
+  
++  oneSignal: {
++    init: {
++      appId: '設定したappId',
++      allowLocalhostAsSecureOrigin: true,
++      welcomeNotification: {
++        disable: true
++      }
++    }
+```
+---
+### 参考資料
+[Nuxt.jsとFirebaseでSPA×SSR×PWA×サーバーレスを実現する](https://inside.dmm.com/entry/2018/04/10/nuxt-firebase)
+[いまさら聞けないPWAとAMP](https://qiita.com/edwardkenfox/items/4c0b9550ffa48c1f0445)
+[PWAをNuxt.jsで簡単に体験する](http://techblog.scouter.co.jp/entry/2017/12/07/080416)
+[FaaS（Function as a Service）とは](https://boxil.jp/mag/a3692/)
+[結局PWAは来るの？来ないの？](https://blog.agektmr.com/2018/03/instagram-pwa.html)
+
+---
+### まとめ
+
 
 
 
