@@ -86,7 +86,7 @@ Nuxt.jsにはPWAモジュールが用意されている
 ```
  npm install --save-dev @nuxtjs/pwa
 ```
-`src/nuxt.config.js`にPWAの設定を追記
+`src/nuxt.config.js`にPWAの設定を追記  
 manifestはアプリっぽい挙動になる設定
 
 ```
