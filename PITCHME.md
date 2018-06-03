@@ -109,12 +109,10 @@ modules: [
 ],
 ```
 ---
-### Webプッシュ導入
-OneSignalを使って導入  
-→Webサイトにpush通知機能を付けられるサードパーティのライブラリ  
+### OneSignalを使ってWebプッシュ導入
+Webサイトにpush通知機能を付けられるサードパーティのライブラリ  
 OneSignal上でアプリケーションを登録後
 `nuxt.config.js`を下記のように設定
-
 ```
   modules: [
 +    '@nuxtjs/onesignal', // pwaの前に定義
