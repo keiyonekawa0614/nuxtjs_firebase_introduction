@@ -130,14 +130,13 @@ OneSignal上でアプリケーションを登録後
 ```
 ---
 ### 参考資料
-[Nuxt.jsとFirebaseでSPA×SSR×PWA×サーバーレスを実現する](https://inside.dmm.com/entry/2018/04/10/nuxt-firebase)
-[いまさら聞けないPWAとAMP](https://qiita.com/edwardkenfox/items/4c0b9550ffa48c1f0445)
-[PWAをNuxt.jsで簡単に体験する](http://techblog.scouter.co.jp/entry/2017/12/07/080416)
-[FaaS（Function as a Service）とは](https://boxil.jp/mag/a3692/)
-[結局PWAは来るの？来ないの？](https://blog.agektmr.com/2018/03/instagram-pwa.html)
+[Nuxt.jsとFirebaseでSPA×SSR×PWA×サーバーレスを実現する](https://inside.dmm.com/entry/2018/04/10/nuxt-firebase)  
+[いまさら聞けないPWAとAMP](https://qiita.com/edwardkenfox/items/4c0b9550ffa48c1f0445)  
+[PWAをNuxt.jsで簡単に体験する](http://techblog.scouter.co.jp/entry/2017/12/07/080416)  
+[FaaS（Function as a Service）とは](https://boxil.jp/mag/a3692/)  
+[結局PWAは来るの？来ないの？](https://blog.agektmr.com/2018/03/instagram-pwa.html)  
 
 ---
-### まとめ
 
 
 
